@@ -1,0 +1,23 @@
+name: SkynetA11y PDF Remediation
+slug: skyneta11ypdfremediation
+type: plugin
+version: 1.0.0
+description: AI-powered PDF accessibility remediation - upload PDFs, scan website PDFs, and download remediated files.
+icon: fa-file-pdf
+author:
+    name: Skynet Technologies USA LLC
+    email: hello@skynettechnologies.com
+    url: https://www.skynettechnologies.com/
+
+homepage: https://github.com/skynettechnologies/grav-skyneta11ypdfremediation
+keywords: accessibility, pdf, files, wcag, ada, remediation
+docs: https://www.skynettechnologies.com/pdf-accessibility-remediation
+bugs: https://github.com/skynettechnologies/grav-skyneta11ypdfremediation/issues
+license: MIT
+compatibility:
+    grav: ['2.0']
+
+dependencies:
+    - { name: grav, version: '>=2.0.0' }
+    - { name: admin2, version: '>=2.0.0' }
+    - { name: api, version: '>=1.0.22' }
